@@ -11,8 +11,8 @@
     "serve": "lerna run --parallel serve",
     "clean": "lerna run --parallel clean",
     "prepare": "lerna run yarn",
-    "test:first": "cd first; yarn test",
-    "test:second": "cd second; yarn test",
+    "test:first": "cd first; yarn test:coverage",
+    "test:second": "cd second; yarn test:coverage",
     "test": "yarn test:first && yarn test:second"
   },
   "devDependencies": {
