@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1 data-testid="app-header">Workflow React First App</h1>
-      <p>Test workflow for unit test coverage and cypress new</p>
+      <p>Test workflow for unit test coverage and cypress new test</p>
       <Test />
       <New />
       <Latest />
