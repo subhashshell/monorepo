@@ -1,15 +1,18 @@
-module.exports = {              
-  roots: ["<rootDir>/first/src", "<rootDir>/second/src"],          
-
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-  },       
-  
-  setupFilesAfterEnv: [        
-    "@testing-library/jest-dom/extend-expect"
-  ],    
-
-  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",    
-
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"]
-};  
+module.exports = {
+  coveragePathIgnorePatterns: [
+      "node_modules",
+      "test-config",
+      "interfaces",
+      "jestGlobalMocks.ts",
+      ".module.ts",
+      "firsr/src/index.tsx",
+  ],
+  coverageThreshold: {
+      global: {
+          branches: 90,
+          functions: 90,
+          lines: 90,
+          statements: 90,
+      },
+  },
+};
