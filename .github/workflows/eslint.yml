@@ -1,0 +1,22 @@
+name: ES Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Running Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use None.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install
+        run: yarn install
+      - name: ES Lint
+        run: yarn lint
