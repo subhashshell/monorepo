@@ -36,7 +36,7 @@
     "start": "env-cmd -f .env webpack serve --mode development",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage",
+    "test:coverage": "react-scripts test a --coverage",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx",
     "lint:fix": "eslint --fix --ignore-path .gitignore . --ext ts --ext tsx",
