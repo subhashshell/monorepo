@@ -7,6 +7,8 @@ module.exports = {
         ".module.ts",
         "src/index.tsx",
     ],
+    collectCoverage: true,
+    coverageReporters: ["json", "html"],
     coverageThreshold: {
         global: {
             branches: 90,
