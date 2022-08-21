@@ -11,7 +11,7 @@
     "serve": "lerna run --parallel serve",
     "clean": "lerna run --parallel clean",
     "prepare": "lerna run yarn",
-    "test": "cd first; yarn test"
+    "test": "jest"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -29,12 +29,5 @@
     "react-scripts": "5.0.1",
     "ts-jest": "^28.0.8",
     "typescript": "^4.2.4"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "first/src/**/*.{ts,tsx}",
-      "second/src/**/*.{ts,tsx}"
-    ],
-    "testEnvironment": "jsdom"
   }
 }
