@@ -1,6 +1,7 @@
 import React from 'react';
 import New from './New';
 import Test from './Test';
+import Latest from './Latest';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <p>Test workflow for unit test coverage and cypress</p>
       <Test />
       <New />
+      <Latest />
     </div>
   );
 }
