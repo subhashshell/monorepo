@@ -15,4 +15,4 @@ jobs:
 
     - name: Check outputs
       run: |
-         echo "Text summary for: ${{ steps.summary_action.outputs.summary }}"
+         echo "Text summary for"
