@@ -4,14 +4,15 @@ on:
         branches:
             - main
 jobs:
-    coverage:
-        permissions:
-            checks: write
-            pull-requests: write
-            contents: write
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v1
-            - name: Check outputs
-              run: |
-                echo "Text summary"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run action
+      id: summary_action
+      uses: Akshay090/github-action-text-summarization@master
+      with:
+        path: path/to/textFile.txt
+
+    - name: Check outputs
+      run: |
+         echo "Text summary: ${{ steps.summary_action.outputs.summary }}"
