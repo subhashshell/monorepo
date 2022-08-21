@@ -4,15 +4,15 @@ on:
         branches:
             - main
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Run action
-      id: summary_action
-      uses: Akshay090/github-action-text-summarization@master
-      with:
-        path: path/to/textFile.txt
-
-    - name: Check outputs
-      run: |
-         echo "Text summary for"
+    coverage:
+        permissions:
+            checks: write
+            pull-requests: write
+            contents: write
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v1
+            - uses: subhashshell/react-coverage-report-action@v1
+              with:
+                test-script: yarn test
+                skip-step: all
