@@ -7,3 +7,9 @@ test('renders learn react link', () => {
     const linkElement = screen.getByText(/Workflow React Second App/i);
     expect(linkElement).toBeInTheDocument();
   });
+
+  test('renders test id', () => {
+    render(<App />);
+    const wrapper = screen.getByTestId("app2-header");
+    expect(wrapper).toBeInTheDocument();
+  });
