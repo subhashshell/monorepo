@@ -15,5 +15,4 @@ jobs:
             - uses: subhashshell/react-coverage-report-action@v1.5
               with:
                 test-script: yarn test
-                skip-step: all
-                working_directory: - First
+                working_directory: First
