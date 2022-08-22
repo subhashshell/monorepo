@@ -16,3 +16,4 @@ jobs:
               with:
                 test-script: yarn test
                 skip-step: all
+                working_directory: - First
