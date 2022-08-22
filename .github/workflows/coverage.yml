@@ -15,4 +15,4 @@ jobs:
             - uses: subhashshell/react-coverage-report-action@main
               with:
                 test-script: yarn test
-                working_directory: First
+                working_directory: Fiset Module
