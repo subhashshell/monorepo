@@ -1,5 +1,7 @@
 {
+  "name": "@monorepo/storybook",
   "private": true,
+  "version": "1.0.0",
   "workspaces": {
     "packages": [
       "first",
@@ -45,5 +47,8 @@
         "react-scripts": "5.0.1"
       }
     }
+  },
+  "repository": {
+    "url": "https://github.com/subhashshell/monorepo/storybook.git"
   }
 }
