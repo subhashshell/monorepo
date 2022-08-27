@@ -1,4 +1,5 @@
 {
+  "name": "subhash-storybook",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -38,7 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "subhash-storybook",
   "author": {
     "name": "shell"
   },
@@ -96,5 +96,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/subhashshell/subhash-storybook.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@subhash-storybook"
   }
 }
