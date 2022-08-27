@@ -17,10 +17,8 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - run: |
-          echo @subhashshell:https://npm.pkg.github.com/ > .npmrc
-          echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> .npmrc
+        registry-url: https://npm.pkg.github.com/
+        scope: '@subhashshell'
       - run: npm publish
-        working-directory: ./
         env:
           NPM_TOKEN: ${{ secrets.GH_TOKEN }}
