@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@sibhash-shared-storybook",
+  "name": "subhash-storybook",
   "author": {
     "name": "shell"
   },
@@ -95,6 +95,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/subhashshell/sibhash-shared-storybook.git"
+    "url": "https://github.com/subhashshell/subhash-storybook.git"
   }
 }
