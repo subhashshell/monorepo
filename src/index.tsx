@@ -6,7 +6,6 @@
 * All rights reserved
 */
 
-import '../../common/styles/assets/styles/main.css'
 export * from "./Thing";
 export * from "./components/atoms/button/Button";
 export * from "./components/atoms/checkbox/Checkbox";
