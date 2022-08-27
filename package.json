@@ -1,8 +1,8 @@
 {
-  "name": "@monorepo/storybook",
-  "version": "1.0.2",
+  "name": "monorepostorybook",
+  "version": "1.0.0",
   "repository": {
-    "url": "https://github.com/subhashshell/storybook.git"
+    "url": "https://github.com/subhashshell/monorepostorybook.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
