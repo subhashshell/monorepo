@@ -98,6 +98,6 @@
     "url": "https://github.com/subhashshell/subhash-storybook.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@subhash-storybook"
+    "registry":"https://npm.pkg.github.com/"
   }
 }
