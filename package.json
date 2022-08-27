@@ -1,6 +1,5 @@
 {
   "name": "@monorepo/storybook",
-  "private": true,
   "version": "1.0.2",
   "repository": {
     "url": "https://github.com/subhashshell/monorepo/storybook.git"
