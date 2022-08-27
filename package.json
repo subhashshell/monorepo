@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "shared-storybook",
+  "name": "@sibhash-shared-storybook",
   "author": {
     "name": "shell"
   },
@@ -92,5 +92,9 @@
   "_id": "shared-storybook@0.1.0",
   "dependencies": {
     "@rollup/plugin-replace": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subhashshell/sibhash-shared-storybook.git"
   }
 }
