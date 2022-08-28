@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "license": "MIT",
+  "name": "@subhashshell/subhash-storybook",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -38,7 +38,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "subhash-storybook",
   "author": {
     "name": "shell"
   },
@@ -94,7 +93,6 @@
     "@rollup/plugin-replace": "^4.0.0"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/subhashshell/subhash-storybook.git"
+    "url":"https://github.com/subhashshell/monorepo.git"
   }
 }
